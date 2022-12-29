@@ -1,15 +1,20 @@
 .btn {
-  width: 100%;
-  height: auto;
-  padding: 25px 10px;
-  border-radius: 8px;
-  background-color: rgb(11, 90, 11);
-  color: white;
-  font-size: 18px;
-  margin: 20px;
+    width: 200px;
+    height: auto;
+    padding: 20px 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.btn {
+    background-color: rgb(18, 160, 18);
 }
 
 .btn:hover {
-  background-color: darkGreen;
-  cursor: pointer;
+    background-color: darkGreen;
+    cursor: pointer;
 }
+
+

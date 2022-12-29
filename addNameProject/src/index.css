@@ -14,6 +14,9 @@ body {
 
 .app-container {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 800px;
   height: auto;
 }

@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='app-container'>
       <AppTitle />
-      {show ? <Card /> : <Button showForm={toggle} />}
+      {show ? <Card /> : <Button onClick={toggle}>Add a new user</Button>}
 
     </div>
   );
