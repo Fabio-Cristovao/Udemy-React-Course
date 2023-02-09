@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import { Button } from '../UI/button/Button';
+import "./form.css";
 
 export const AddUser = (props) => {
 
@@ -23,12 +24,16 @@ export const AddUser = (props) => {
     setAgeInput("");
   }
   return (
-    <form onSubmit={handleAddUser}>
-      <label htmlFor='username'>UserName</label>
-      <input id='username' type="text" onChange={handleNameInputChange} value={nameInput} />
-      <label htmlFor='age'>Age</label>
-      <input id='age' type="number" onChange={handleAgeInputChange} value={ageInput} />
-      <Button type='submit'>Add User</Button>
-    </form>
+    <>
+      <form onSubmit={handleAddUser}>
+        <div className='form-container'>
+          <label htmlFor='username'>UserName</label>
+          <input id='username' type="text" onChange={handleNameInputChange} value={nameInput} />
+          <label htmlFor='age'>Age</label>
+          <input id='age' type="number" onChange={handleAgeInputChange} value={ageInput} />
+          <Button type='submit'>Add User</Button>
+        </div>
+      </form>
+    </>
   )
 }
