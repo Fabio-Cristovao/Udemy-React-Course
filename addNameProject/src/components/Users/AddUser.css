@@ -1,0 +1,18 @@
+.form-field,
+.form-field-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field label {
+    color: white;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 15px;
+    border-radius: 8px;
+}

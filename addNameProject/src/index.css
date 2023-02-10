@@ -1,23 +1,18 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 body {
-  margin: 0;
-  background-color: rgb(39, 36, 36);
-  font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    background-color: rgb(31, 29, 29);
+    font-family: 'Roboto Mono', monospace;
 }
 
 .app-container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  height: auto;
+    max-width: 900px;
+    margin:auto;
 }
-
